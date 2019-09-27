@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Js</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.boot strapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="d-flex justify-content-center"><h3>Welcome To angular JS</h3></div>
+<!-- <div ng-app="" ng-init="person=[{name:'jackson',country:'Australia'},{name:'Ronaldo',country:'Portugal'}]">
+<ul>
+<li ng-repeat="x in person">
+	{{ x.name  + ", " + x.country}}
+</li>
+</ul>
+
+<form ng-app="" name="formName"> 
+	<input type="email" name="address" ng-model="text">
+	<span ng-show="formName.address.$error.email">Invalid</span>
+</form>
+</div> -->
+<!-- <div data-ng-app="myApp" data-ng-controller="myCtrl">
+	<input type="text" data-ng-model="name">
+	<h2 >{{name | uppercase}} {{lname | lowercase}}</h2>
+</div>
+<script type="text/javascript">
+angular.module('myApp',[])
+.controller('myCtrl',function($scope){
+   $scope.name="hello";
+   $scope.lname="HELLO";
+});
+</script> -->
+<h3>What is a mango?</h3>
+<input type="radio" name="s"id="a">Fruit
+<input type="radio" name="s">Flower
+<input type="radio" name="s">tree
+<input type="radio" name="s">water
+<div ng-app="">
+<h2>Basic Progress Bar</h2>
+<div ng-app="">
+<div class="progress">
+<div class="progress-bar" role="progressbar" aria-valuenow="{{value}}" aria-valuemin="0" aria-valuemax="100" style="width:{{value}}%">
+  <span class="sr-only">{{value}}% Complete</span>
+  <script type="text/javascript">
+
+  	function sum()
+  	{
+  			var value=0;
+  		var s1=document.getElementById("a");
+  		if(s1.checked==true)
+  		{
+  			value=value+10;
+  		}
+  		document.write(value);
+
+  	}
+
+  </script>
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-success" onclick="sum()">Submit</button>
+
+</div>
+</body>
+</html>

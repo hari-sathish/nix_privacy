@@ -1,0 +1,686 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.boot strapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top navbar-default">
+  <a class="navbar-brand" href="#" style="color: white">Controllers Processors</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+<div class="container-fluid">
+  <div class="row ">
+<div class="vertical-menu">
+ <div class="dropdown">
+    <button class="btn btn-md" type="button" data-toggle="dropdown">Self Assessment
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="control.html">Controller Processor</a></li>
+      <li><a href="principle.html">Principles Alignment</a></li>
+      <li><a href="details.html">Detailed Assessment</a></li>
+    </ul>
+    </div>
+    <div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown">GDPR Internal Audit
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Plan Audit</a></li>
+      <li><a href="#">Review Audit</a></li>
+      <li><a href="#">Report</a></li>
+      <li><a href="#">Action Plan</a></li>
+    </ul>
+</div> 
+  <div class="dropdown">
+    <button class="btn" type="button" data-toggle="dropdown">Data Mapping
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="">Type of data</a></li>
+      <li><a href="#">Mapping</a></li>
+    </ul>
+</div> 
+</div>
+
+  <div class="container bg-light">
+  <div class="row">
+  <div class="col-md-10">
+     <h2>Controller/Joint-controller/Processor</h2>
+     
+</div>
+
+<div class="row">
+<div class="col-md-12">
+    
+</div>
+</div>
+ <div class="col-md-10 ">
+<div class="panel panel-default">
+   <div class="controller" style="margin-top: 10px;margin-left: 10px;">
+    <div class="row">
+      <div class="col-md-3">
+              <label for="comment">Processing activity:</label>
+
+      <textarea class="form-control" rows="1" cols="1" id="comment" placeholder="eg:-"></textarea>
+    </div>
+     <div class="col-md-3">
+            <label for="comment">Purpose:</label>
+
+      <textarea class="form-control" rows="1" cols="1" id="comment" placeholder="eg:-"></textarea>
+    </div>
+    </div>
+    </div>
+  <div style="float: right;margin-top: 10px;margssin-right: 10px;">
+    <p><b>Select</b><br>
+   <button type="button" class="btn btn-success green2" id="green1" >Yes</button>
+<button type="button" class="btn btn-danger" id="red1">No</button>
+<button type="button" class="btn btn-primary " id="blue1">Not Sure</button>
+</div>
+<h3>Controller</h3>
+    <div  class="panel-body mb-6">We decided to collect or process the personal data.<br><br>
+
+
+      <button type="button" style="background-color: grey;color: white;" class="btn green" id="a1">Yes</button>
+      <button type="button" style="background-color: grey;color: white;"class="btn red" id="b1">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c1">Not Sure</button>
+    </div>
+    <div class="panel-body">We decided what the purpose or outcome of the processing was to be.<br><br>
+        <button type="button" style="background-color: grey;color: white;" class="btn green"id="a2" >Yes</button>
+        <button type="button" style="background-color: grey;color: white;"class="btn red"id="b2">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c2">Not Sure</button>
+    </div>
+      <div class="panel-body"> We decided what personal data should be collected.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green"id="a3">Yes</button>
+       <button type="button" style="background-color: grey;color: white;"class="btn red"id="b3">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c3">Not Sure</button>
+</div>
+    <div class="panel-body">We decided which individuals to collect personal data about.
+    <br><br>
+
+
+   <button type="button" style="background-color: grey;color: white;" class="btn green" id="a4">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b4">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c4">Not Sure</button>
+     </div>
+      <div class="panel-body">We obtain a commercial gain or other benefit from the processing, except for any payment for services from another controller.
+      <br><br>
+
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green"id="a5">Yes</button>
+       <button type="button" style="background-color: grey;color: white;"class="btn red"id="b5">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c5">Not Sure</button></div>
+    <div class="panel-body">We are processing the personal data as a result of a contract between us and the data subject.
+    <br><br>
+
+
+   <button type="button" style="background-color: grey;color: white;" class="btn green" id="a6">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b6">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c6">Not Sure</button></div>
+      <div class="panel-body">The data subjects are our employees.<br><br>
+
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green"id="a7">Yes</button>
+        <button type="button" style="background-color: grey;color: white;"class="btn red" id="b7">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c7">Not Sure</button></div>
+    <div class="panel-body">We make decisions about the individuals concerned as part of or as a result of the processing.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a8">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b8">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c8">Not Sure</button>
+
+</div>
+      <div class="panel-body"> We exercise professional judgement in the processing of the personal data.<br><br>
+
+
+      <button type="button" style="background-color: grey;color: white;" class="btn green" id="a9">Yes</button>
+     <button type="button" style="background-color: grey;color: white;"class="btn red" id="b9">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c9">Not Sure</button>
+     </div>
+    <div class="panel-body">We have a direct relationship with the data subjects.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a10">Yes</button>
+   <button type="button" style="background-color: grey;color: white;"class="btn red" id="b10">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c10">Not Sure</button></div>
+      <div class="panel-body">We have complete autonomy as to how the personal data is processed.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a11">Yes</button>
+      <button type="button" style="background-color: grey;color: white;"class="btn red" id="b11">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c11">Not Su re</button></div>
+    <div class="panel-body">We have appointed the processors to process the personal data on our behalf.<br><br>
+<h3>Jont_controller</h3>
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a12">Yes</button>
+   <button type="button" style="background-color: grey;color: white;"class="btn red" id="b12">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c12">Not Sure</button></div>
+      <div class="panel-body">We have a common objective with others regarding the processing.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a13">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b13">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c13">Not Sure</button></div>
+    <div class="panel-body">We are processing the personal data for the same purpose as another controller.
+<br><br>
+
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a14">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b14">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c14">Not Sure</button>
+</div>
+      <div class="panel-body">We are using the same set of personal data (eg one database) for this processing as another controller.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a15">Yes</button>
+   <button type="button" style="background-color: grey;color: white;"class="btn red" id="b15">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c15">Not Sure</button>
+     </div>
+    <div class="panel-body">We have designed this process with another controller.<br><br>
+
+
+      <button type="button" style="background-color: grey;color: white;" class="btn green" id="a16">Yes</button>
+     <button type="button" style="background-color: grey;color: white;"class="btn red" id="b16">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c16">Not Sure</button></div>
+      <div class="panel-body">We have common information management rules with another controller.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a17">Yes</button>
+   <button type="button" style="background-color: grey;color: white;"class="btn red" id="b17">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c17"> Not Sure</button></div>
+    <div class="panel-body">We are following instructions from someone else regarding the processing of personal data.<br><br>
+
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a18">Yes</button>
+      <button type="button" style="background-color: grey;color: white;"class="btn red" id="b18">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c18">Not Sure</button></div>
+     <div class="panel-body">We were given the personal data by a customer or similar third party, or told what data to collect.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a19">Yes</button>
+   <button type="button" style="background-color: grey;color: white;"class="btn red" id="b19">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c19">Not Sure</button></div>
+    <div class="panel-body">We do not decide to collect personal data from individuals.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a20">Yes</button>
+       <button type="button" style="background-color: grey;color: white;"class="btn red" id="b20">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c20">Not Sure</button></div>
+      <div class="panel-body">We do not decide what personal data should be collected from individuals.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a21">Yes</button>
+       <button type="button" style="background-color: grey;color: white;"class="btn red" id="b21">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c21">Not Sure</button></div>
+    <div class="panel-body"> We do not decide the lawful basis for the use of that data.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green" id="a22">Yes</button>
+      <button type="button" style="background-color: grey;color: white;"class="btn red" id="b22">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c22">Not Sure</button></div>
+      <div class="panel-body"> We do not decide what purpose or purposes the data will be used for.<br><br>
+
+
+   <button type="button" style="background-color: grey;color: white;" class="btn green"id="a23">Yes</button>
+      <button type="button" style="background-color: grey;color: white;"class="btn red" id="b23">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c23">Not Sure</button></div>
+    <div class="panel-body">We do not decide whether to disclose the data, or to whom.<br><br>
+
+
+       <button type="button" style="background-color: grey;color: white;" class="btn green"id="a24">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red" id="b24">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue" id="c24">Not Sure</button></div>
+     <div class="panel-body">We do not decide how long to retain the data.<br><br>
+
+
+      <button type="button" style="background-color: grey;color: white;" class="btn green"id="a25">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red"id="b25">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c25">Not Sure</button></div>
+     <div class="panel-body"> We may make some decisions on how data is processed, but implement these decisions under a contract with someone else.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green1"id="a26">Yes</button>
+    <button type="button" style="background-color: grey;color: white;"class="btn red"id="b26">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c26">Not Sure</button></div>
+    <div class="panel-body">We are not interested in the end result of the processing.<br><br>
+
+  <button type="button" style="background-color: grey;color: white;" class="btn green"id="a27">Yes</button>
+        <button type="button" style="background-color: grey;color: white;"class="btn red"id="b27">No</button>
+       <button type="button" style="background-color: grey;color: white;" class="btn blue"id="c27">Not Sure</button></div>
+     
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+<button type="button" class="btn btn-success" style="margin-left: 270px;" onclick="window.location.href='prin_joint.html'">Submit</button>
+</div>
+</body>
+</html>
+<script>
+  $(document).ready(function(){
+$('#green1').click(function(){
+   $('.green').css('background-color','#449D45');
+   $('.red').css('background-color','gray');
+   $('.blue').css('background-color','gray');
+});
+$('#red1').click(function(){
+   $('.red').css('background-color','#C9302C');
+      $('.green').css('background-color','gray');
+   $('.blue').css('background-color','gray');
+});
+$('#blue1').click(function(){
+   $('.blue').css('background-color','#286091');
+      $('.red').css('background-color','gray');
+   $('.green').css('background-color','gray');
+});
+$('#a1').click(function(){
+  $('#a1').css('background-color','#449D45');
+   $('#b1').css('background-color','gray');
+   $('#c1').css('background-color','gray');
+});
+$('#b1').click(function(){
+  $('#a1').css('background-color','gray');
+   $('#b1').css('background-color','#C9302C');
+   $('#c1').css('background-color','gray');
+});
+$('#c1').click(function(){
+  $('#a1').css('background-color','gray');
+   $('#c1').css('background-color','#286091');
+   $('#b1').css('background-color','gray');
+});
+$('#a2').click(function(){
+  $('#a2').css('background-color','#449D45');
+   $('#b2').css('background-color','gray');
+   $('#c2').css('background-color','gray');
+});
+$('#b2').click(function(){
+  $('#a2').css('background-color','gray');
+   $('#b2').css('background-color','#C9302C');
+   $('#c2').css('background-color','gray');
+});
+$('#c2').click(function(){
+  $('#a2').css('background-color','gray');
+   $('#c2').css('background-color','#286091');
+   $('#b2').css('background-color','gray');
+});
+$('#a3').click(function(){
+  $('#a3').css('background-color','#449D45');
+   $('#b3').css('background-color','gray');
+   $('#c3').css('background-color','gray');
+});
+$('#b3').click(function(){
+  $('#a3').css('background-color','gray');
+   $('#b3').css('background-color','#C9302C');
+   $('#c3').css('background-color','gray');
+});
+$('#c3').click(function(){
+  $('#a3').css('background-color','gray');
+   $('#c3').css('background-color','#286091');
+   $('#b3').css('background-color','gray');
+});
+$('#a4').click(function(){
+  $('#a4').css('background-color','#449D45');
+   $('#b4').css('background-color','gray');
+   $('#c4').css('background-color','gray');
+});
+$('#b4').click(function(){
+  $('#a4').css('background-color','gray');
+   $('#b4').css('background-color','#C9302C');
+   $('#c4').css('background-color','gray');
+});
+$('#c4').click(function(){
+  $('#a4').css('background-color','gray');
+   $('#c4').css('background-color','#286091');
+   $('#b4').css('background-color','gray');
+});
+$('#a5').click(function(){
+  $('#a5').css('background-color','#449D45');
+   $('#b5').css('background-color','gray');
+   $('#c5').css('background-color','gray');
+});
+$('#b5').click(function(){
+  $('#a5').css('background-color','gray');
+   $('#b5').css('background-color','#C9302C');
+   $('#c5').css('background-color','gray');
+});
+$('#c5').click(function(){
+  $('#a5').css('background-color','gray');
+   $('#c5').css('background-color','#286091');
+   $('#b5').css('background-color','gray');
+});
+$('#a6').click(function(){
+  $('#a6').css('background-color','#449D45');
+   $('#b6').css('background-color','gray');
+   $('#c6').css('background-color','gray');
+});
+$('#b6').click(function(){
+  $('#a6').css('background-color','gray');
+   $('#b6').css('background-color','#C9302C');
+   $('#c6').css('background-color','gray');
+});
+$('#c6').click(function(){
+  $('#a6').css('background-color','gray');
+   $('#c6').css('background-color','#286091');
+   $('#b6').css('background-color','gray');
+});
+$('#a7').click(function(){
+  $('#a7').css('background-color','#449D45');
+   $('#b7').css('background-color','gray');
+   $('#c7').css('background-color','gray');
+});
+$('#b7').click(function(){
+  $('#a7').css('background-color','gray');
+   $('#b7').css('background-color','#C9302C');
+   $('#c7').css('background-color','gray');
+});
+$('#c7').click(function(){
+  $('#a7').css('background-color','gray');
+   $('#c7').css('background-color','#286091');
+   $('#b7').css('background-color','gray');
+});
+$('#a8').click(function(){
+  $('#a8').css('background-color','#449D45');
+   $('#b8').css('background-color','gray');
+   $('#c8').css('background-color','gray');
+});
+$('#b8').click(function(){
+  $('#a8').css('background-color','gray');
+   $('#b8').css('background-color','#C9302C');
+   $('#c8').css('background-color','gray');
+});
+$('#c8').click(function(){
+  $('#a8').css('background-color','gray');
+   $('#c8').css('background-color','#286091');
+   $('#b8').css('background-color','gray');
+});
+$('#a9').click(function(){
+  $('#a9').css('background-color','#449D45');
+   $('#b9').css('background-color','gray');
+   $('#c9').css('background-color','gray');
+});
+$('#b9').click(function(){
+  $('#a9').css('background-color','gray');
+   $('#b9').css('background-color','#C9302C');
+   $('#c9').css('background-color','gray');
+});
+$('#c9').click(function(){
+  $('#a9').css('background-color','gray');
+   $('#c9').css('background-color','#286091');
+   $('#b9').css('background-color','gray');
+});
+$('#a10').click(function(){
+  $('#a10').css('background-color','#449D45');
+   $('#b10').css('background-color','gray');
+   $('#c10').css('background-color','gray');
+});
+$('#b10').click(function(){
+  $('#a10').css('background-color','gray');
+   $('#b10').css('background-color','#C9302C');
+   $('#c10').css('background-color','gray');
+});
+$('#c10').click(function(){
+  $('#a10').css('background-color','gray');
+   $('#c10').css('background-color','#286091');
+   $('#b10').css('background-color','gray');
+});
+$('#a11').click(function(){
+  $('#a11').css('background-color','#449D45');
+   $('#b11').css('background-color','gray');
+   $('#c11').css('background-color','gray');
+});
+$('#b11').click(function(){
+  $('#a11').css('background-color','gray');
+   $('#b11').css('background-color','#C9302C');
+   $('#c11').css('background-color','gray');
+});
+$('#c11').click(function(){
+  $('#a11').css('background-color','gray');
+   $('#c11').css('background-color','#286091');
+   $('#b11').css('background-color','gray');
+});
+$('#a12').click(function(){
+  $('#a12').css('background-color','#449D45');
+   $('#b12').css('background-color','gray');
+   $('#c12').css('background-color','gray');
+});
+$('#b12').click(function(){
+  $('#a12').css('background-color','gray');
+   $('#b12').css('background-color','#C9302C');
+   $('#c12').css('background-color','gray');
+});
+$('#c12').click(function(){
+  $('#a12').css('background-color','gray');
+   $('#c12').css('background-color','#286091');
+   $('#b12').css('background-color','gray');
+});
+$('#a13').click(function(){
+  $('#a13').css('background-color','#449D45');
+   $('#b13').css('background-color','gray');
+   $('#c13').css('background-color','gray');
+});
+$('#b13').click(function(){
+  $('#a13').css('background-color','gray');
+   $('#b13').css('background-color','#C9302C');
+   $('#c13').css('background-color','gray');
+});
+$('#c13').click(function(){
+  $('#a13').css('background-color','gray');
+   $('#c13').css('background-color','#286091');
+   $('#b13').css('background-color','gray');
+});
+$('#a14').click(function(){
+  $('#a14').css('background-color','#449D45');
+   $('#b14').css('background-color','gray');
+   $('#c14').css('background-color','gray');
+});
+$('#b14').click(function(){
+  $('#a14').css('background-color','gray');
+   $('#b14').css('background-color','#C9302C');
+   $('#c14').css('background-color','gray');
+});
+$('#c14').click(function(){
+  $('#a14').css('background-color','gray');
+   $('#c14').css('background-color','#286091');
+   $('#b14').css('background-color','gray');
+});
+$('#a15').click(function(){
+  $('#a15').css('background-color','#449D45');
+   $('#b15').css('background-color','gray');
+   $('#c15').css('background-color','gray');
+});
+$('#b15').click(function(){
+  $('#a15').css('background-color','gray');
+   $('#b15').css('background-color','#C9302C');
+   $('#c15').css('background-color','gray');
+});
+$('#c15').click(function(){
+  $('#a15').css('background-color','gray');
+   $('#c15').css('background-color','#286091');
+   $('#b15').css('background-color','gray');
+});
+$('#a16').click(function(){
+  $('#a16').css('background-color','#449D45');
+   $('#b16').css('background-color','gray');
+   $('#c16').css('background-color','gray');
+});
+$('#b16').click(function(){
+  $('#a16').css('background-color','gray');
+   $('#b16').css('background-color','#C9302C');
+   $('#c16').css('background-color','gray');
+});
+$('#c16').click(function(){
+  $('#a16').css('background-color','gray');
+   $('#c16').css('background-color','#286091');
+   $('#b16').css('background-color','gray');
+});
+$('#a17').click(function(){
+  $('#a17').css('background-color','#449D45');
+   $('#b17').css('background-color','gray');
+   $('#c17').css('background-color','gray');
+});
+$('#b17').click(function(){
+  $('#a17').css('background-color','gray');
+   $('#b17').css('background-color','#C9302C');
+   $('#c17').css('background-color','gray');
+});
+$('#c17').click(function(){
+  $('#a17').css('background-color','gray');
+   $('#c17').css('background-color','#286091');
+   $('#b17').css('background-color','gray');
+});
+$('#a18').click(function(){
+  $('#a18').css('background-color','#449D45');
+   $('#b18').css('background-color','gray');
+   $('#c18').css('background-color','gray');
+});
+$('#b18').click(function(){
+  $('#a18').css('background-color','gray');
+   $('#b18').css('background-color','#C9302C');
+   $('#c18').css('background-color','gray');
+});
+$('#c18').click(function(){
+  $('#a18').css('background-color','gray');
+   $('#c18').css('background-color','#286091');
+   $('#b18').css('background-color','gray');
+});
+$('#a19').click(function(){
+  $('#a19').css('background-color','#449D45');
+   $('#b19').css('background-color','gray');
+   $('#c19').css('background-color','gray');
+});
+$('#b19').click(function(){
+  $('#a19').css('background-color','gray');
+   $('#b19').css('background-color','#C9302C');
+   $('#c19').css('background-color','gray');
+});
+$('#c19').click(function(){
+  $('#a19').css('background-color','gray');
+   $('#c19').css('background-color','#286091');
+   $('#b19').css('background-color','gray');
+});
+$('#a20').click(function(){
+  $('#a20').css('background-color','#449D45');
+   $('#b20').css('background-color','gray');
+   $('#c20').css('background-color','gray');
+});
+$('#b20').click(function(){
+  $('#a20').css('background-color','gray');
+   $('#b20').css('background-color','#C9302C');
+   $('#c20').css('background-color','gray');
+});
+$('#c20').click(function(){
+  $('#a20').css('background-color','gray');
+   $('#c20').css('background-color','#286091');
+   $('#b20').css('background-color','gray');
+});
+$('#a21').click(function(){
+  $('#a21').css('background-color','#449D45');
+   $('#b21').css('background-color','gray');
+   $('#c21').css('background-color','gray');
+});
+$('#b21').click(function(){
+  $('#a21').css('background-color','gray');
+   $('#b21').css('background-color','#C9302C');
+   $('#c21').css('background-color','gray');
+});
+$('#c21').click(function(){
+  $('#a21').css('background-color','gray');
+   $('#c21').css('background-color','#286091');
+   $('#b21').css('background-color','gray');
+});
+$('#a22').click(function(){
+  $('#a22').css('background-color','#449D45');
+   $('#b22').css('background-color','gray');
+   $('#c22').css('background-color','gray');
+});
+$('#b22').click(function(){
+  $('#a22').css('background-color','gray');
+   $('#b22').css('background-color','#C9302C');
+   $('#c22').css('background-color','gray');
+});
+$('#c22').click(function(){
+  $('#a22').css('background-color','gray');
+   $('#c22').css('background-color','#286091');
+   $('#b22').css('background-color','gray');
+});
+$('#a23').click(function(){
+  $('#a23').css('background-color','#449D45');
+   $('#b23').css('background-color','gray');
+   $('#c23').css('background-color','gray');
+});
+$('#b23').click(function(){
+  $('#a23').css('background-color','gray');
+   $('#b23').css('background-color','#C9302C');
+   $('#c23').css('background-color','gray');
+});
+$('#c23').click(function(){
+  $('#a23').css('background-color','gray');
+   $('#c23').css('background-color','#286091');
+   $('#b23').css('background-color','gray');
+});
+$('#a24').click(function(){
+  $('#a24').css('background-color','#449D45');
+   $('#b24').css('background-color','gray');
+   $('#c24').css('background-color','gray');
+});
+$('#b24').click(function(){
+  $('#a24').css('background-color','gray');
+   $('#b24').css('background-color','#C9302C');
+   $('#c24').css('background-color','gray');
+});
+$('#c24').click(function(){
+  $('#a24').css('background-color','gray');
+   $('#c24').css('background-color','#286091');
+   $('#b24').css('background-color','gray');
+});
+$('#a25').click(function(){
+  $('#a25').css('background-color','#449D45');
+   $('#b25').css('background-color','gray');
+   $('#c25').css('background-color','gray');
+});
+$('#b25').click(function(){
+  $('#a25').css('background-color','gray');
+   $('#b25').css('background-color','#C9302C');
+   $('#c25').css('background-color','gray');
+});
+$('#c25').click(function(){
+  $('#a25').css('background-color','gray');
+   $('#c25').css('background-color','#286091');
+   $('#b25').css('background-color','gray');
+});
+$('#a26').click(function(){
+  $('#a26').css('background-color','#449D45');
+   $('#b26').css('background-color','gray');
+   $('#c26').css('background-color','gray');
+});
+$('#b26').click(function(){
+  $('#a26').css('background-color','gray');
+   $('#b26').css('background-color','#C9302C');
+   $('#c26').css('background-color','gray');
+});
+$('#c26').click(function(){
+  $('#a26').css('background-color','gray');
+   $('#c26').css('background-color','#286091');
+   $('#b26').css('background-color','gray');
+});
+$('#a27').click(function(){
+  $('#a27').css('background-color','#449D45');
+   $('#b27').css('background-color','gray');
+   $('#c27').css('background-color','gray');
+});
+$('#b27').click(function(){
+  $('#a27').css('background-color','gray');
+   $('#b27').css('background-color','#C9302C');
+   $('#c27').css('background-color','gray');
+});
+$('#c27').click(function(){
+  $('#a27').css('background-color','gray');
+   $('#c27').css('background-color','#286091');
+   $('#b27').css('background-color','gray');
+});
+$('.green2').dblclick(function(){
+  $('.green').css('background-color','gray');
+});
+  });
+
+</script>

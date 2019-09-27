@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<title></title>
+</head>
+<body>
+<div id="chartContainer" style="height: 360px; width: 100%;"></div>
+</body>
+</html>
+<script type="text/javascript">
+	var chart = new CanvasJS.Chart("chartContainer",
+{
+	title: {
+    verticalAlign: "center"
+  },
+	data: [
+	{
+		type: "doughnut",
+    indexLabel: "#percent%",
+    innerRadius: "60%",
+    indexLabelPlacement: "inside",
+		dataPoints: [
+			{ label: "A", y: 71 },
+			{ label: "B", y: 55 },
+			{ label: "C", y: 50 },
+		
+		]
+	}					
+	]
+});
+
+chart.render();
+var total = 0;
+for(var i = 0; i < chart.options.data[0].dataPoints.length; i++) {
+	total += chart.options.data[0].dataPoints[i].y;
+}
+chart.title.set("text", total);
+</script>

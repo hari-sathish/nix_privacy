@@ -1,0 +1,102 @@
+#but
+{
+	float: left;
+}
+#F
+{
+  
+  font-size: 12px;
+  font-family:arial;
+}
+
+#E
+{
+	font-size: 12px;
+	color: gray;
+	
+}
+#I
+{
+  font: inherit;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+} 
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 3;
+}
+#E1
+{
+	font-size: 12px;
+	left: 0px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+element {
+  @include float-left;
+}
+.another-element {
+  @include float-right;
+}
+.one-more {
+  @include float-none;
+}
+.kt-login_divider
+{
+    color: #b5b2c3; 
+   padding: 10px 10px 10px 0px;
+}
+html
+{
+	-webkit-text-size-adjust: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5867dd;
+    border-color: #5867dd;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight:bold;
+     height: 34px;
+    width:120px;
+
+}
+
+.btn-info {
+    
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight:bold;
+     height: 34px;
+    width:120px;
+
+}
+.btn-danger
+{
+	background-color: #fd397a;
+    border-color: #fd397a;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight:bold;
+    height: 34px;
+    width:120px;
+}
+.ds
+{
+	padding:10px 10px 90px 100px;
+}
+.sa
+{
+	padding:0px 5px 20px 320px;
+}
+.bt
+{
+	padding: 10px 20px 20px 57px;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form method="post" onsubmit="sum()">
+	<h2>What is a mango</h2>
+	<input type="radio" name="a" id="a">Flower
+	<input type="radio" name="a" id="a">Animal
+	<input type="radio" name="a" id="a">Tree
+	<input type="radio" name="a" id="a">Fruit
+	<h2>What is a mango</h2>
+	<input type="radio" name="a1" id="b">Flower
+	<input type="radio" name="a1" >Animal
+	<input type="radio" name="a1" >Tree
+	<input type="radio" name="a1" >Fruit
+<input type="submit" name="submit" value="submit">
+</form>
+</body>
+</html>
+<script type="text/javascript">
+	function sum()
+	{
+       var s=document.getElementById("a");
+       var s1=document.getElementById("b");
+       var sum=0;
+       if(s.checked==true)
+       {
+       	sum=sum+1;
+       }
+       if(s1.checked==true)
+       {
+       	sum=sum+1;
+       }
+       document.write(sum);
+	}
+
+</script>>

@@ -1,0 +1,300 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.boot strapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+   <style>
+.donate-now {
+     list-style-type:none;
+     margin:25px 0 0 0;
+     padding:0;
+
+}
+
+.donate-now li {
+     float:left;
+     margin:0 5px 10px 0;
+    width:100px;
+    height:45px;
+    position:relative;
+}
+
+.donate-now label, .donate-now input {
+    /*display:block;*/
+    position:absolute;
+    top:0;
+    left:1px;
+    right:0;
+    bottom:0;
+
+}
+ 
+   
+.donate-now input[type="radio"] {
+    opacity:0.01;
+    z-index:100;
+      padding: 15px;
+    border-radius: 15px;
+    left: 50px;
+  
+}
+
+.donate-now input[type="radio"]:checked + label,
+.Checked + label {
+    background:#C0C0C0 ;
+     border-color: #216582;
+        padding: 8px;
+  border-radius: 25px;
+   width: 100px;
+}
+
+.donate-now label {
+     padding:5px;
+     border:1px solid #CCC; 
+     cursor:pointer;
+    z-index:100;
+     border-color: #216582;
+}
+
+.donate-now label:hover {
+     background:lightgray;
+}
+
+@media (max-width: 767px)
+.page-container {
+    margin: 0!important;
+    padding: 0;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top navbar-default">
+  <a class="navbar-brand" href="#" style="color: white">Details </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="row">
+<div class="col-md-2">
+             <div class="vertical-menu">
+                 <div class="dropdown">
+                   <button class="btn btn-md" type="button" data-toggle="dropdown">Self Assessment
+                      <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="control.html">Controller Processor</a></li>
+                            <li><a href="principle.html">Principles Alignment</a></li>
+                            <li><a href="details.html">Detailed Assessment</a></li>
+                          </ul>
+                    </div>
+                      <div class="dropdown">
+                          <button class="btn" type="button" data-toggle="dropdown">GDPR Internal Audit
+                           <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Plan Audit</a></li>
+                            <li><a href="#">Review Audit</a></li>
+                            <li><a href="#">Report</a></li>
+                            <li><a href="#">Action Plan</a></li>
+                            </ul>
+                           </div>  
+              </div>
+            </div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+<div class="container " style="background: white;">
+                  <h2>Create Audit</h2>
+                 <center>
+                     <form action="demo2/kickoff.php" method="POST">
+                                 <div class="col-md-12">
+                                  
+                                         <div class="form-group" >
+                                            <div class="col-md-6 mb-4">
+                                                <label for="email" style="font-size: 15px;margin-right:810px;">Title</label>
+                                                  <input type="text" class="form-control" id="auditTitle"  name="pwd1" style="border-color: #216582;">
+                                             </div>
+                                          </div>
+
+
+                                 </div>
+
+                                 <div class="col-md-12">                         
+                                         <div class="form-group" >
+                                            <div class="col-md-6 mb-4">
+                                                <label for="email" style="font-size: 15px;margin-right:810px;">Description</label>
+                                                  <input type="text" class="form-control" id="auditTitle"  name="pwd1" style="border-color: #216582;">
+                                             </div>
+                                          </div>
+                                 </div>
+
+                              <div class="col-md-13">
+                              <div class="form-group">
+                                        <div class="col-md-6">
+                                              <label for="email" style="font-size: 15px;margin-right:810px;">Compliance</label>
+                                         </div>
+                                            <div class="col-md-12">
+                                                <div class="col-md-6 mb-4">
+                                                    <select class="form-control" id="company" style="border-color: #216582;">
+                                                         <option>--Select--</option>
+                                                         <option>ISO 27000</option>
+                                                         <option>HIPAA</option>
+                                                         <option>ISO 27001 Security Compliance</option>
+                                                      </select>
+                                                 </div>
+                                            </div>
+                                    </div>
+                               </div>
+
+
+                       <div class="col-md-12">
+                              <div class="form-group">
+                                   <div class="col-md-6">
+                                            <div class="form-row">
+                                                  <div class="col-md-6 mb-4">
+                                                    <label for="validationCustom01" style="font-size: 15px;margin-right:810px;">StartDate</label>
+                                                 <input type="date" class="form-control" id="start_date"required style=" border-color: #216582;"> 
+                                                    </div>
+                                                    <div class="col-md-6 mb-4">
+                                                     <label for="validationCustom02" style="font-size: 15px;margin-right:500px;">EndDate</label>
+                                                    <input type="date" class="form-control" id="end_date" required style="border-color: #216582; ">
+                                                     </div>
+                                             </div>
+                                   </div>
+                                </div>
+                               </div>
+
+
+
+                                        <div class="col-md-12">        
+                                               <div class="form-group">
+                                                   <div class="col-md-6">
+                                                    <div class="form-row">
+                                                          <div class="col-md-6 mb-4">
+                                                              <label for="validationCustom01" style="font-size: 15px;margin-right: 810px;">Location</label>
+                                                              <select class="form-control" style="border-color: #216582;">
+                                                                <option >Auditor</option>
+                                                                 <option >Auditor</option>
+                                                                  <option >Auditor</option>
+                                                                   <option >Auditor</option>
+
+
+                                                                </select>
+                                                           </div>
+                                                          <div class="col-md-6 mb-4">
+                                                            <label for="validationCustom02" style="font-size: 15px;margin-right: 500px;">Departments</label>
+                                                             <select  class="form-control" style="border-color: #216582;">
+                                                             <option>Auditee</option>
+                                                              <option >Auditor</option>
+                                                               <option >Auditor</option>
+                                                                <option >Auditor</option>
+                                                                 <option >Auditor</option>
+
+                                                              </select>
+                                                            </div>
+                                                          </div>
+                                                       </div>
+                                                   </div>
+</div>
+
+                      <div class="col-md-12">        
+                                               <div class="form-group">
+                                                   <div class="col-md-6">
+                                                    <div class="form-row">
+                                                          <div class="col-md-6 mb-4">
+                                                              <label for="validationCustom01" style="font-size: 15px;margin-right: 810px;">Auditor</label>
+                                                              <select class="form-control" style="border-color: #216582;">
+                                                                <option ></option>
+                                                                 <option >Auditor</option>
+                                                                  
+
+                                                                </select>
+                                                           </div>
+                                                          <div class="col-md-6 mb-4">
+                                                            <label for="validationCustom02" style="font-size: 15px;margin-right: 500px;">Auditee</label>
+                                                             <select  class="form-control" style="border-color: #216582;">
+                                                             <option></option>
+                                                              <option >Auditee</option>
+                                                               
+                                                              </select>
+                                                            </div>
+                                                          </div>
+                                                       </div>
+                                                   </div>
+</div>
+
+
+                                            <div class="container">
+                                                 <div class="col-md-6 mb-4">
+                                              <p style="margin-right: 0px;">Reapeat(Optional), For adhoc audits click plan directly></p>
+                            <ul class="donate-now">
+                                <li>
+                                 <input type="radio" id="a5" name="amount" />
+                                 <label for="a5">Weekly</label>
+                               </li>
+
+                               <li>
+                                  <input type="radio" id="a25" name="amount" />
+                                  <label for="a25">Monthly</label>
+                               </li>
+
+                               <li>
+                                <input type="radio" id="a50" name="amount" />
+                                <label for="a50">Quarterly</label>
+                               </li>
+
+                             <li>
+                               <input type="radio" id="a75" name="amount" checked="checked" />
+                               <label for="a75">Yearly</label>
+                            </li>
+
+                            <li>
+                            <input type="radio" id="a100" name="amount"/>
+                             <label for="a100">Once</label>
+                            </li>
+                        </ul>
+                     </div>
+                     </div>
+
+                     <div class="col-md-11">
+<button type="button" class="btn btn-success">Success</button> 
+ </div>
+     </form>
+</center>
+</div> 
+
+
+
+</div>
+</div>
+</div> 
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
